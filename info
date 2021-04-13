@@ -1,0 +1,238 @@
+{
+  "uuid": "2114ccfecb015ccaaf1d3653ed991fc5",
+  "path": "Offline/esp_tv",
+  "name": "esp_tv",
+  "content": "",
+  "created_at": "2021-01-21 17:52:17",
+  "updated_at": "2021-04-13 16:32:47",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "813b7d419cad186468c15cb8e4d66a9c",
+      "title": "schematic",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "a1f05e93504e44a3aab2b8cd8a2e7bcb": 1,
+        "2fa53d590f544429ab8fcbd581d715c1": 9,
+        "878c34ba5cbd4e5d948f8ababda70cd4": 4,
+        "f367c9043b9d696814add546ab641d32": 1,
+        "0b6ea66f1a77ef3069b26dadb3d73791": 1,
+        "efffc24e768b4ae69d39f2edda2e269a": 2,
+        "0c9fd5922ac04fc28ac67e1e694197cb": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "PSU",
+          1,
+          "HDR-TH_2P-P2.54-V-M",
+          "P2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "2.54-1*2PFemale",
+            "BOM_Supplier Part": "C49661",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "e6b180e1316a4d0690f78b72797504c2",
+            "uuid": "0b6ea66f1a77ef3069b26dadb3d73791"
+          }
+        ],
+        [
+          "Piezo",
+          2,
+          "BUZZER-12MM",
+          "SG2,SG1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "d2a010dcc0484ccc83d9fed7def4a156",
+            "uuid": "0c9fd5922ac04fc28ac67e1e694197cb"
+          }
+        ],
+        [
+          "R",
+          3,
+          "R1206",
+          "R5,R2,R8",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "2fa53d590f544429ab8fcbd581d715c1"
+          }
+        ],
+        [
+          "2R",
+          3,
+          "R1206",
+          "R4,R7,R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "2fa53d590f544429ab8fcbd581d715c1"
+          }
+        ],
+        [
+          "R/4",
+          3,
+          "R1206",
+          "R6,R9,R3",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "2fa53d590f544429ab8fcbd581d715c1"
+          }
+        ],
+        [
+          "ESP",
+          1,
+          "HDR-F-2.54_1X20",
+          "J1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "d2341d8234464924809729b13422be4a",
+            "uuid": "878c34ba5cbd4e5d948f8ababda70cd4"
+          }
+        ],
+        [
+          "32",
+          1,
+          "HDR-F-2.54_1X20",
+          "J2",
+          {
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "d2341d8234464924809729b13422be4a",
+            "uuid": "878c34ba5cbd4e5d948f8ababda70cd4"
+          }
+        ],
+        [
+          "Headers",
+          1,
+          "HDR-F-2.54_1X20",
+          "J4",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "d2341d8234464924809729b13422be4a",
+            "uuid": "878c34ba5cbd4e5d948f8ababda70cd4"
+          }
+        ],
+        [
+          "Backup",
+          1,
+          "HDR-F-2.54_1X20",
+          "J3",
+          {
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier": "",
+            "BOM_Supplier Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "d2341d8234464924809729b13422be4a",
+            "uuid": "878c34ba5cbd4e5d948f8ababda70cd4"
+          }
+        ],
+        [
+          "MINI_DIN_6",
+          1,
+          "M_DIN6",
+          "X1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "9523e23db0eb42b9874dcdc0555db4f8",
+            "uuid": "a1f05e93504e44a3aab2b8cd8a2e7bcb"
+          }
+        ],
+        [
+          "10k",
+          1,
+          "R1206",
+          "R11",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "4k7",
+          1,
+          "R1206",
+          "R10",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "0610c91ea88544ecbdf889657d55abcb",
+            "uuid": "efffc24e768b4ae69d39f2edda2e269a"
+          }
+        ],
+        [
+          "VGA",
+          1,
+          "HDR-TH_6P-P2.54-V-F",
+          "P1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "Female header 1*6p",
+            "BOM_Supplier Part": "C40877",
+            "BOM_LCSC Assembly": "Yes",
+            "puuid": "84f1ed3c8ee94504833047c26b4d21a2",
+            "uuid": "f367c9043b9d696814add546ab641d32"
+          }
+        ]
+      ],
+      "updateTime": 1618162529,
+      "createTime": 1611252701,
+      "histories": [],
+      "created_at": "2021-01-21 18:11:41",
+      "updated_at": "2021-04-11 18:35:29"
+    },
+    {
+      "uuid": "80c34d693d61b480d4133c9f2ca2c4a2",
+      "puuid": "2114ccfecb015ccaaf1d3653ed991fc5",
+      "title": "PCB",
+      "filename": "PCB.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "9523e23db0eb42b9874dcdc0555db4f8": 1,
+        "84f1ed3c8ee94504833047c26b4d21a2": 1,
+        "0610c91ea88544ecbdf889657d55abcb": 11,
+        "d2341d8234464924809729b13422be4a": 4,
+        "e6b180e1316a4d0690f78b72797504c2": 1,
+        "d2a010dcc0484ccc83d9fed7def4a156": 2
+      },
+      "BOM": [],
+      "updateTime": 1618327936,
+      "createTime": 1618327936,
+      "histories": [],
+      "created_at": "2021-04-13 16:32:16",
+      "updated_at": "2021-04-13 16:32:16"
+    }
+  ],
+  "sort": [],
+  "title": "esp_tv",
+  "foldername": "esp_tv",
+  "schfilename": "schematic.json",
+  "schfilemtime": 1618162529809
+}
